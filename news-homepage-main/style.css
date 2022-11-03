@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    margin-top: 2.5vw;
+    height: 10vw;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 3.5vw;
+    margin-left: 12vw;
+    width: 5vw;
+}
+
+ul {
+    color: hsl(236, 13%, 42%);
+    font-size: 1.2vw;
+    font-weight: 700;
+    list-style: none;
+    display: inline-flex;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    float: right;
+}
+
+li {
+    padding-left: 3.5vw;
+    cursor: pointer;
+}
+
+.container {
+    width: 55vw;
+}
+
+.big-image {
+    position: absolute;
+    width: 50vw;
+    margin-left: 12vw;
+    margin-top: 2.28vw;
+}
+
+.title {
+    font-size: 1.7vw;
+    margin-left: 12vw;
+    margin-top: 25vw;
+    width: 20vw;
+}
+
+.description {
+    color: hsl(236, 13%, 42%);
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: -11.5vw;
+    font-size: 1.2vw;
+    width: 30vw;
+}
+
+#more-btn {
+    font-weight: 700;
+    font-size: 1.4vw;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    cursor: pointer;
+    border-radius: .1vw;
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: -4vw;
+    width: 15vw;
+    height: 3.5vw;
+    border: none;
+}
+
+.container2 {
+    position: absolute;
+    background-color: hsl(240, 100%, 5%);
+    font-size: 1.4vw;
+    color: white;
+    width: 22vw;
+    height: 33vw;
+    padding: 1.25vw;
+    margin-top: -35vw;
+    margin-left: 65vw;
+}
+
+.con2-desc {
+    color: hsl(233, 8%, 79%);
+    font-size: 1.1vw;
+}
+
+.new {
+    color: hsl(35, 77%, 62%);
+}
+
+.container3 {
+    font-size: 1.4vw;
+    font-weight: 700;
+    height: 25vw;
+}
+
+.blockOne {
+    position: absolute;
+    width: 16vw;
+    margin-left: 21vw;
+    margin-top: 5vw;
+}
+
+.retro-img {
+    position: absolute;
+    width: 8vw;
+    margin-left: -9vw;
+    margin-top: .5vw;
+}
+
+.blockTwo {
+    position: absolute;
+    width: 17vw;
+    margin-left: 47vw;
+    margin-top: 5vw;
+}
+
+.laptops-img {
+    position: absolute;
+    width: 8vw;
+    margin-left: 38.2vw;
+    margin-top: 5.5vw;
+}
+
+.blockThree {
+    position: absolute;
+    width: 16vw;
+    margin-left: 74vw;
+    margin-top: 5vw;
+}
+
+.gaming-img {
+    position: absolute;
+    width: 8vw;
+    margin-left: 65vw;
+    margin-top: 5.5vw;
+}
+
+.blockNumber {
+    color: hsl(233, 8%, 79%);
+}
+
+.blockDesc {
+    color: hsl(236, 13%, 42%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
